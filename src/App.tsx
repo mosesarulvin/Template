@@ -1,10 +1,15 @@
 import React from "react";
+import { Grid, Typography } from "@mui/material";
+import Section from "./components/layouts/Section";
 
 function App(): React.ReactElement {
+  const arr = [1, 2, 3, 4, 5, 6];
   return (
-    <div>
-      <h1>React Boilerplate</h1>
-    </div>
+    <Grid>
+      {arr.map((item: number, index: number) => (
+        <Section isOdd={index % 2 === 0}>{item}</Section>
+      ))}
+    </Grid>
   );
 }
 
