@@ -12,9 +12,9 @@ const Section: React.FC<Props> = ({ children, isOdd }) => {
       height={"80vh"}
       sx={{
         backgroundColor: (theme) =>
-          isOdd
+          (isOdd
             ? theme?.custom?.background?.primary?.main
-            : theme?.custom?.background?.primary?.dark,
+            : theme?.custom?.background?.primary?.dark)
       }}
     >
       {children}
