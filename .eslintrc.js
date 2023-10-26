@@ -27,6 +27,7 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     quotes: ['error', 'single'],
+    '@typescript-eslint/no-confusing-void-expression': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     'arrow-body-style': 'off',
     'implicit-arrow-linebreak': 'off',
