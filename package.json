@@ -6,7 +6,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.14",
+    "@mui/icons-material": "^5.14.15",
+    "@mui/material": "^5.14.15",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +16,7 @@
     "@types/prop-types": "^15.7.9",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
+    "material-icons": "^1.13.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -53,6 +55,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^3.0.3"
   }
 }

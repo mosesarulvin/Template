@@ -3,15 +3,15 @@ import GridColumnCenter from '../layouts/GridCenter';
 
 const Profile: React.FC = () => {
   return (
-    <GridColumnCenter sx={{height: '100%'}}>
-      <GridColumnCenter m={'2rem'} sx={{height: '30%'}}>
+    <GridColumnCenter sx={{height: '100%', padding: '1.5rem'}}>
+      <GridColumnCenter sx={{height: '30%', margin: '0px 2rem'}}>
         <Avatar
-          src="./profile.jpg"
+          src={'./dhanrajpai/profile.jpg'}
           sx={{width: '200px', height: '200px', border: '4px solid white'}}
         />
       </GridColumnCenter>
       <GridColumnCenter m={'1rem'}>
-        <Typography variant="h1" color={'white'}>
+        <Typography variant="h1" color={'white'} textAlign={'center'}>
           Dhanraj Pai Raiturkar
         </Typography>
       </GridColumnCenter>

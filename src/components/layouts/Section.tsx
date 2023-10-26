@@ -9,7 +9,7 @@ interface Props {
 const Section: React.FC<Props> = ({children, isOdd}) => {
   return (
     <Grid
-      minHeight={'80vh'}
+      // minHeight={'80vh'}
       sx={{
         backgroundColor: theme =>
           !isOdd

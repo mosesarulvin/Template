@@ -1,6 +1,7 @@
 import GridCenter from '../layouts/GridCenter';
 import theme from '../../theme';
-import {Typography} from '@mui/material';
+import {Grid, Typography} from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar: React.FC = () => {
   const navOptions: string[] = [
@@ -14,24 +15,32 @@ const Navbar: React.FC = () => {
     <GridCenter
       direction="row"
       sx={{backgroundColor: theme?.custom?.background?.primary?.main}}>
-      <GridCenter direction="row">
-        <ul
-          style={{
-            listStyleType: 'none',
-            display: 'flex'
-          }}>
-          {navOptions.map((navItem: string, index: number) => {
-            return (
-              <Typography
-                key={`Navbar_${index}`}
-                variant="body2"
-                color={'white'}>
-                {navItem}
-              </Typography>
-            );
-          })}
-        </ul>
-      </GridCenter>
+      <Grid display={{xs: 'none', md: 'flex', lg: 'flex', xl: 'flex'}}>
+        <GridCenter direction="row">
+          <ul
+            style={{
+              listStyleType: 'none',
+              display: 'flex'
+            }}>
+            {navOptions.map((navItem: string, index: number) => {
+              return (
+                <Typography
+                  key={`Navbar_${index}`}
+                  variant="body2"
+                  color={'white'}>
+                  {navItem}
+                </Typography>
+              );
+            })}
+          </ul>
+        </GridCenter>
+      </Grid>
+      <Grid
+        display={{xs: 'flex', md: 'none', lg: 'none', xl: 'none'}}
+        width={'100%'}
+        padding={'0.2rem 0.5rem'}>
+        <MenuIcon fontSize="large" sx={{color: 'white'}} />
+      </Grid>
     </GridCenter>
   );
 };

@@ -12,17 +12,17 @@ const Projects: React.FC = () => {
     {
       title: 'Creative Design',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './landing1.jpg'
+      img: './dhanrajpai/landing1.jpg'
     },
     {
       title: 'Online Classes',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './landing2.webp'
+      img: './dhanrajpai/landing2.webp'
     },
     {
       title: 'Shopify',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './landing3.png'
+      img: './dhanrajpai/landing3.png'
     }
   ];
   return (
@@ -30,7 +30,6 @@ const Projects: React.FC = () => {
       direction="column"
       sx={{
         justifyContent: 'space-around',
-        padding: '0px 2rem',
         height: '100%'
       }}>
       {projects.map((project: projectInterface, index: number) => {
