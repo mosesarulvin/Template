@@ -12,17 +12,17 @@ const Projects: React.FC = () => {
     {
       title: 'Creative Design',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './dhanrajpai/landing1.jpg'
+      img: './landing1.jpg'
     },
     {
       title: 'Online Classes',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './dhanrajpai/landing2.webp'
+      img: './landing2.webp'
     },
     {
       title: 'Shopify',
       body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio vel repellendus id alias pariatur, laboriosam asperiores molestias, saepe culpa quod praesentium? Similique pariatur dolor provident eveniet sit hic quos veniam?',
-      img: './dhanrajpai/landing3.png'
+      img: './landing3.png'
     }
   ];
   return (

@@ -6,7 +6,7 @@ const Profile: React.FC = () => {
     <GridColumnCenter sx={{height: '100%', padding: '1.5rem'}}>
       <GridColumnCenter sx={{height: '30%', margin: '0px 2rem'}}>
         <Avatar
-          src={'./dhanrajpai/profile.jpg'}
+          src={'./profile.jpg'}
           sx={{width: '200px', height: '200px', border: '4px solid white'}}
         />
       </GridColumnCenter>
