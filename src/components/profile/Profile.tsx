@@ -12,7 +12,7 @@ const Profile: React.FC = () => {
       </GridColumnCenter>
       <GridColumnCenter m={'1rem'}>
         <Typography variant="h1" color={'white'} textAlign={'center'}>
-          Dhanraj Pai Raiturkar
+          Firstname Lastname
         </Typography>
       </GridColumnCenter>
       <GridColumnCenter m={'1rem'}>
