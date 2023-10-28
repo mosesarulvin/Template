@@ -7,11 +7,19 @@ const Profile: React.FC = () => {
       <GridColumnCenter sx={{height: '30%', margin: '0px 2rem'}}>
         <Avatar
           src={'./profile.jpg'}
-          sx={{width: '200px', height: '200px', border: '4px solid white'}}
+          sx={{
+            width: '200px',
+            height: '200px',
+            border: '4px solid white'
+          }}
         />
       </GridColumnCenter>
       <GridColumnCenter m={'1rem'}>
-        <Typography variant="h1" color={'white'} textAlign={'center'}>
+        <Typography
+          variant="h1"
+          sx={{fontWeight: '300'}}
+          color={'white'}
+          textAlign={'center'}>
           Firstname Lastname
         </Typography>
       </GridColumnCenter>

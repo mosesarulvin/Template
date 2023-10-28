@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
                 key={`Navbar_${index}`}
                 variant="body2"
                 color={'white'}
-                fontSize={{xs: '1.6rem'}}>
+                fontSize={{xs: '1.6rem', md: '1rem', lg: '1rem', xl: '1rem'}}>
                 {navItem}
               </Typography>
             );

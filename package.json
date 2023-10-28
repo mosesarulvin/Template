@@ -1,5 +1,4 @@
 {
-  "homepage": "http://mosesarulvin.github.io/Template",
   "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3020 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
